@@ -1,7 +1,7 @@
 FROM alpine:3.2
-MAINTAINER 	Martin Devlin <martin.devlin@pearson.com>
+MAINTAINER 	Jim Conner <snafu.x@gmail.com>
 
-ENV VAULT_VERSION    0.5.2
+ENV VAULT_VERSION    0.8.3
 
 COPY config.json /etc/vault/cfg/config.json
 
